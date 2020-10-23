@@ -23,11 +23,36 @@
   font-size: calc(10px + 2vmin);
 }
 
+.Barcodes {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  max-height: 80vh;
+}
+
+.Col {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: auto;
+}
+
+.Inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+  padding-right: 16px;
+}
+
 svg {
-  padding: 20px;
-  padding-bottom: 20px;
   align-self: center;
-  width: 300px;
+  width: 800px;
+  height: 100%;
+}
+
+span {
+  padding-top: 30px;
+  font-size: 20px;
 }
 
 input {
